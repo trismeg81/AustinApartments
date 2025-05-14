@@ -69,12 +69,13 @@ footer {
 }
 
 .review-image {
-  width: 95vw;
-  max-width: 1200px;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: auto; /* Allow natural width */
+    max-width: 100%; /* Prevent overflow */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper layout */
+    margin: 1rem 0; /* Add vertical spacing */
+    float: left; /* Align the image to the left */
+    border-radius: 8px; /* Keep existing styles */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Keep existing styles */
 }
 
