@@ -62,22 +62,28 @@ footer {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-.review-wrapper {
-  width: 100%;
+/* Full-width wrapper for reviews image */
+.review-full-width {
+  width: 100vw;
   margin: 0;
   padding: 0;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
+/* Reviews image spans full width of screen */
 .review-image {
-    width: auto; /* Allow natural width */
-    max-width: 100%; /* Prevent overflow */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure proper layout */
-    margin: 1rem 0; /* Add vertical spacing */
-    float: left; /* Align the image to the left */
-    border-radius: 8px; /* Keep existing styles */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Keep existing styles */
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
 }
+
 
 /* Center all section text and headings */
 section, section h2, section p {
