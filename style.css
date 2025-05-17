@@ -110,3 +110,18 @@ section, section h2, section p {
   background-color: #1e90ff;
   color: #fff;
 }
+
+.info-highlight {
+  background-color: #1e90ff;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.info-highlight a.cta-button {
+  background: #fff;
+  color: #1e90ff;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
