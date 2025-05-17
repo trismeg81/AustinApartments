@@ -140,11 +140,12 @@ section, section h2, section p {
 
 /* Inner container to center content */
 .info-highlight-inner {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 100%;
   padding: 0 1rem;
+  overflow-x: auto;
   text-align: center;
 }
+
 
 /* Ensure button remains styled */
 .info-highlight-inner .cta-button {
@@ -157,13 +158,25 @@ section, section h2, section p {
 
 .no-wrap-desktop {
   white-space: nowrap;
+  display: block;
   overflow-x: auto;
+  padding-bottom: 0.5rem; /* for visibility */
 }
+
 
 @media (max-width: 768px) {
   .no-wrap-desktop {
     white-space: normal;
   }
 }
+
+.no-wrap-desktop::-webkit-scrollbar {
+  height: 6px;
+}
+.no-wrap-desktop::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
 
 
