@@ -155,4 +155,15 @@ section, section h2, section p {
   display: inline-block;
 }
 
+.no-wrap-desktop {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .no-wrap-desktop {
+    white-space: normal;
+  }
+}
+
 
