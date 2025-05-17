@@ -76,6 +76,46 @@
     </div>
   </section>
 
+  <!-- Prorated Rent Calculator Section -->
+<section id="rent-calculator" style="background: #f0f8ff; padding: 2rem; text-align: center;">
+  <h2>What's Your Rent With The Special? Let's Calculate it!</h2>
+
+  <form id="calculator-form" style="max-width: 400px; margin: 1rem auto;">
+    <label for="rent">Monthly Rent ($):</label><br>
+    <input type="number" id="rent" name="rent" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;"><br>
+
+    <label for="lease">Lease Term (months):</label><br>
+    <input type="number" id="lease" name="lease" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;"><br>
+
+    <label for="freeWeeks">Weeks Free:</label><br>
+    <input type="number" id="freeWeeks" name="freeWeeks" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;"><br>
+
+    <button type="submit" class="cta-button">Calculate New Rent</button>
+  </form>
+
+  <div id="result" style="margin-top: 1rem; font-weight: bold;"></div>
+</section>
+
+<script>
+  document.getElementById('calculator-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const rent = parseFloat(document.getElementById('rent').value);
+    const lease = parseFloat(document.getElementById('lease').value);
+    const freeWeeks = parseFloat(document.getElementById('freeWeeks').value);
+
+    if (isNaN(rent) || isNaN(lease) || isNaN(freeWeeks) || lease <= 0) {
+      document.getElementById('result').innerText = 'Please enter valid values.';
+      return;
+    }
+
+    const totalFree = (rent / 4) * freeWeeks;
+    const effectiveMonthlyRent = ((rent * lease) - totalFree) / lease;
+
+    document.getElementById('result').innerText = `Effective Monthly Rent: $${effectiveMonthlyRent.toFixed(2)}`;
+  });
+</script>
+
+
   <!-- CONTACT CALL TO ACTION -->
   <section id="contact">
     <h2>Get Matched to Apartments</h2>
