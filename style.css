@@ -90,3 +90,23 @@ section, section h2, section p {
   text-align: center;
 }
 
+.top-right-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  z-index: 1000;
+  transition: background 0.3s ease;
+}
+
+.top-right-button:hover {
+  background-color: #1e90ff;
+  color: #fff;
+}
