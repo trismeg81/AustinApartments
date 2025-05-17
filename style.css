@@ -125,3 +125,34 @@ section, section h2, section p {
   display: inline-block;
 }
 
+/* Full-width blue section */
+.info-highlight-full {
+  width: 100vw;
+  background-color: #1e90ff;
+  color: white;
+  padding: 2rem 0;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* Inner container to center content */
+.info-highlight-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+/* Ensure button remains styled */
+.info-highlight-inner .cta-button {
+  background: #fff;
+  color: #1e90ff;
+  font-style: italic;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+
