@@ -175,6 +175,16 @@ section, section h2, section p {
   background-color: #ccc;
   border-radius: 3px;
 }
+/* Make footer IABS link visible */
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #1e90ff;
+}
+
 
 
 
