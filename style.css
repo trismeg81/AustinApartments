@@ -177,13 +177,14 @@ section, section h2, section p {
 }
 /* Make footer IABS link visible */
 footer a {
-  color: #fff;
+  color: white;
   text-decoration: underline;
 }
 
 footer a:hover {
   color: #1e90ff;
 }
+
 
 
 
