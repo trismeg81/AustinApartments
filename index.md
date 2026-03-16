@@ -1,5 +1,5 @@
 ---
-layout: home  # Uses theme's home layout for hero section
+layout: default  # Beautiful Jekyll's main layout for home
 ---
 # Austin's Best Apartment Deals – Lease Fast with Me!
 
