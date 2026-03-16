@@ -1,3 +1,21 @@
+---
+layout: home  # Uses theme's home layout for hero section
+---
+# Austin's Best Apartment Deals – Lease Fast with Me!
+
+<image-card alt="New Austin Apartment Hero" src="/photos/your-hero-photo.jpg" ></image-card>  # Upload a high-res apartment photo to photos/ if needed
+
+As your free apartment locator, I specialize in new builds needing quick fills. Text or call (972) 754-7790 for exclusive move-in specials.
+
+## Hot Deals on New Builds
+- **Downtown Luxury**: 1 Month Free – See the Rooftop Pool!  
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>  
+  <image-card alt="Interior" src="/photos/downtown.jpg" ></image-card>
+- **East Austin Gem**: No Deposit Required – Pet-Friendly Units Leasing Now  
+  <image-card alt="Exterior" src="/photos/east-austin.jpg" ></image-card>
+
+Fill out my [Google Form](your-form-link) or text me for personalized matches!
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
