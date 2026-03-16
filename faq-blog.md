@@ -1,6 +1,6 @@
 ---
 title: FAQs & Neighborhood Guides
-layout: single
+layout: page
 ---
 
 <!DOCTYPE html>
