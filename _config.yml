@@ -1,0 +1,11 @@
+title: Apartment Deals Austin
+description: Your go-to expert for exclusive deals on new Austin apartments – fast leasing with photos, videos, and personalized tours.
+remote_theme: mmistakes/minimal-mistakes@4.26.2  # Swap to daattali/beautiful-jekyll if preferred
+plugins:
+  - jekyll-remote-theme
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single  # Default page layout
+      image: /photos/hero-apartment.jpg  # Placeholder; replace with one of your photos/
