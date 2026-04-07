@@ -1,51 +1,31 @@
 ---
-layout: default  # Beautiful Jekyll's main layout for home
+layout: default
+ext-css:
+  - /style.css
 ---
-# Austin's Best Apartment Deals – Lease Fast with Me!
-
-<image-card alt="New Austin Apartment Hero" src="/photos/your-hero-photo.jpg" ></image-card>  # Upload a high-res apartment photo to photos/ if needed
-
-As your free apartment locator, I specialize in new builds needing quick fills. Text or call (972) 754-7790 for exclusive move-in specials.
-
-## Hot Deals on New Builds
-- **Downtown Luxury**: 1 Month Free – See the Rooftop Pool!  
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>  
-  <image-card alt="Interior" src="/photos/downtown.jpg" ></image-card>
-- **East Austin Gem**: No Deposit Required – Pet-Friendly Units Leasing Now  
-  <image-card alt="Exterior" src="/photos/east-austin.jpg" ></image-card>
-
-Fill out my [Google Form](your-form-link) or text me for personalized matches!
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Apartment Deals Austin | Find Your Next Home</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
 
 <!-- Top Right Button -->
 <a href="https://forms.gle/UaBbaEc6RfzK8iPS7" target="_blank" class="top-right-button">
   <em>Let me run your search!</em>
 </a>
 
-  <!-- HEADER: TITLE + PHOTO ONLY -->
-  <header>
-    <h1>Apartment Deals Austin</h1>
-    <img src="photos/headshot.jpg" alt="Taylor Damien Boykin" class="profile-pic">
-  </header>
+<!-- HERO SECTION -->
+<header>
+  <h1>Austin's Best Apartment Deals</h1>
+  <p>I find Austin renters the best move-in specials in the city — 100% free to you.</p>
+  <a href="sms:9727547790" class="cta-button">Text Me Now — It's Free</a>
+  <img src="photos/headshot.jpg" alt="Taylor Boykin, Austin Apartment Locator" class="profile-pic">
+</header>
 
-  <!-- NAVIGATION LINKS -->
+<!-- NAVIGATION LINKS -->
 <nav style="text-align: center; padding: 1rem; background-color: #f0f8ff;">
   <a href="index.html" style="margin: 0 1rem;">Home</a>
   <a href="faq-blog.html" style="margin: 0 1rem;">FAQs & Neighborhood Guides</a>
   <a href="#contact" style="margin: 0 1rem;">Contact</a>
 </nav>
 
-  <!-- REVIEWS SECTION -->
- <section id="about">
+<!-- REVIEWS SECTION -->
+<section id="about">
   <h2>Here's What Previous Clients Have To Say!</h2>
 </section>
 
@@ -63,50 +43,49 @@ Fill out my [Google Form](your-form-link) or text me for personalized matches!
     </p>
 
     <p class="contact-line">
-      <u><strong>Text or call</strong> me anytime on my cell <a href="tel:9727547790" style="color: white; text-decoration: underline;"><strong>(972) 754-7790</strong></a></u>
+      <u><strong>Text or call</strong> me anytime on my cell <a href="sms:9727547790" style="color: white; text-decoration: underline;"><strong>(972) 754-7790</strong></a></u>
     </p>
 
     <p>OR</p>
 
     <p>
       <u><strong>Fill out this quick</strong></u> —>
-      <a href="https://forms.gle/UaBbaEc6RfzK8iPS7" target="_blank" class="cta-button">Google Form</a> 
+      <a href="https://forms.gle/UaBbaEc6RfzK8iPS7" target="_blank" class="cta-button">Google Form</a>
       so I can curate a list tailored to your needs of the best deals in town.
     </p>
   </div>
 </div>
 
-  
-  <!-- ABOUT SECTION -->
-  <section id="about-me">
-    <h2>About Me</h2>
-    <p>
-      I'm a licensed Real Estate Agent in Texas, but more than that, I'm an actor and comedian living in the best town in the USA. Here's a link to my comedy and acting website to see what else I'm doing around Austin!
-    </p>
-    <a href="https://www.taylordamien.com" target="_blank" class="cta-button">taylordamien.com</a>
-  </section>
+<!-- ABOUT SECTION -->
+<section id="about-me">
+  <h2>About Me</h2>
+  <p>
+    I'm a licensed Real Estate Agent in Texas, but more than that, I'm an actor and comedian living in the best town in the USA. Here's a link to my comedy and acting website to see what else I'm doing around Austin!
+  </p>
+  <a href="https://www.taylordamien.com" target="_blank" class="cta-button">taylordamien.com</a>
+</section>
 
-  <!-- DEALS SECTION -->
-  <section id="deals">
-    <h2>Deals of the Week</h2>
-    <div class="listing">
-      <img src="photos/apartments/central/lenoxburnet1.jpg">
-      <h3>Central Austin • 1 Bed • $1,597 + 8 Weeks Free = $1,352/month for this unit! + $500 Gift Card!</h3>
-      <p>Brand new property in Central Austin in one of the best areas of town. Walkable to local bars, restaurants, breweries and coffee shops. Amenities are top notch with 2 beautiful pools with fire pits and cabanas, gorgeous gym, EV charging stations and so much more.</p>
-    </div>
-    <div class="listing">
-      <img src="photos/apartments/east/broadstoneeastend1.jpg">
-      <h3>East Austin • 1 Bed • $1,630 + 10 Weeks Free = $1316/month for this unit!</h3>
-      <p>Awesome value for the money in East Austin. Backs up to a beautiful greenbelt for miles of walking trails. Get downtown in 12 minutes, experience all the new local hotspots like Central Machine Works, De Nada, Medici Roasting, Justine's, Austin Bouldering Project. This area has tons of new things to do!  </p>
-    </div>
-     <div class="listing">
-      <img src="photos/apartments/south/cala1.jpg">
-      <h3>South Austin • 2 Bed 2 Bath • $1,920 + 8 Weeks Free = $1,620/month for this unit!</h3>
-      <p>Brand new property in South Austin! What a crazy price for a 2/2. This spot has a great location off of the main roads, with easy access to a brand new H-E-B, new restaurants and Austin staples like Armadillo Den, Ramen Tatsu-Ya, Torchys, Lustre Pearl South.</p>
-    </div>
-  </section>
+<!-- DEALS SECTION -->
+<section id="deals">
+  <h2>Deals of the Week</h2>
+  <div class="listing">
+    <img src="photos/apartments/central/lenoxburnet1.jpg">
+    <h3>Central Austin • 1 Bed • $1,597 + 8 Weeks Free = $1,352/month for this unit! + $500 Gift Card!</h3>
+    <p>Brand new property in Central Austin in one of the best areas of town. Walkable to local bars, restaurants, breweries and coffee shops. Amenities are top notch with 2 beautiful pools with fire pits and cabanas, gorgeous gym, EV charging stations and so much more.</p>
+  </div>
+  <div class="listing">
+    <img src="photos/apartments/east/broadstoneeastend1.jpg">
+    <h3>East Austin • 1 Bed • $1,630 + 10 Weeks Free = $1316/month for this unit!</h3>
+    <p>Awesome value for the money in East Austin. Backs up to a beautiful greenbelt for miles of walking trails. Get downtown in 12 minutes, experience all the new local hotspots like Central Machine Works, De Nada, Medici Roasting, Justine's, Austin Bouldering Project. This area has tons of new things to do!</p>
+  </div>
+  <div class="listing">
+    <img src="photos/apartments/south/cala1.jpg">
+    <h3>South Austin • 2 Bed 2 Bath • $1,920 + 8 Weeks Free = $1,620/month for this unit!</h3>
+    <p>Brand new property in South Austin! What a crazy price for a 2/2. This spot has a great location off of the main roads, with easy access to a brand new H-E-B, new restaurants and Austin staples like Armadillo Den, Ramen Tatsu-Ya, Torchys, Lustre Pearl South.</p>
+  </div>
+</section>
 
-  <!-- Prorated Rent Calculator Section -->
+<!-- RENT CALCULATOR SECTION -->
 <section id="rent-calculator" style="background: #f0f8ff; padding: 2rem; text-align: center;">
   <h2>What's Your Rent After The Special? Let's Calculate it!</h2>
 
@@ -145,30 +124,26 @@ Fill out my [Google Form](your-form-link) or text me for personalized matches!
   });
 </script>
 
-
-  <!-- CONTACT CALL TO ACTION -->
-  <section id="contact">
-    <h2>Get Matched to Apartments</h2>
-    <p>Fill out a quick form and I’ll send you personalized listings today.</p>
-    <a href="https://forms.gle/UaBbaEc6RfzK8iPS7" target="_blank" class="cta-button">Start Now</a>
-  </section>
-
- <!-- MOVED: CONTACT & FORM SECTION -->
-  <section id="intro">
-    <p><strong>Cell:</strong> <a href="tel:9727547790">(972) 754-7790</a></p>
-    <p><strong>Email:</strong> <a href="mailto:taylor@myapartmentfinders.com">taylor@myapartmentfinders.com</a></p>
+<!-- CONTACT CALL TO ACTION -->
+<section id="contact">
+  <h2>Get Matched to Apartments</h2>
+  <p>Fill out a quick form and I'll send you personalized listings today.</p>
+  <a href="https://forms.gle/UaBbaEc6RfzK8iPS7" target="_blank" class="cta-button">Start Now</a>
 </section>
 
-  <!-- Trigger deploy -->
-
+<!-- CONTACT INFO -->
+<section id="intro">
+  <p><strong>Cell:</strong> <a href="tel:9727547790">(972) 754-7790</a></p>
+  <p><strong>Email:</strong> <a href="mailto:taylor@myapartmentfinders.com">taylor@myapartmentfinders.com</a></p>
+</section>
 
 <!-- FOOTER -->
 <footer>
   <p>&copy; 2025 Austin Apartments by Taylor Damien Boykin</p>
   <p style="font-size:10pt;">
-    <a id="IABS" 
-       href="https://acrobat.adobe.com/id/urn%3Aaaid%3Asc%3AUS%3A22ee4d14-818b-4513-9cae-d4d11f140285/?x_api_client_id=acom_nav&filetype=application%2Fpdf" 
-       target="_blank" 
+    <a id="IABS"
+       href="https://acrobat.adobe.com/id/urn%3Aaaid%3Asc%3AUS%3A22ee4d14-818b-4513-9cae-d4d11f140285/?x_api_client_id=acom_nav&filetype=application%2Fpdf"
+       target="_blank"
        rel="noopener noreferrer">
       Texas Real Estate Commission Information About Brokerage Services
     </a>
