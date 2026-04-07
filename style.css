@@ -4,12 +4,12 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
-  color: #333;
+  background: #faf9f7;
+  color: #211922;
 }
 
 header {
-  background: #1e90ff;
+  background: #2d6a4f;
   color: #fff;
   padding: 2rem;
   text-align: center;
@@ -20,7 +20,7 @@ header {
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
   background: #fff;
-  color: #1e90ff;
+  color: #2d6a4f;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -96,8 +96,8 @@ section, section h2, section p {
   right: 1rem;
   padding: 0.5rem 1rem;
   background-color: #fff;
-  color: #1e90ff;
-  border: 2px solid #1e90ff;
+  color: #2d6a4f;
+  border: 2px solid #2d6a4f;
   border-radius: 5px;
   text-decoration: none;
   font-style: italic;
@@ -107,12 +107,12 @@ section, section h2, section p {
 }
 
 .top-right-button:hover {
-  background-color: #1e90ff;
+  background-color: #2d6a4f;
   color: #fff;
 }
 
 .info-highlight {
-  background-color: #1e90ff;
+  background-color: #2d6a4f;
   color: white;
   text-align: center;
   padding: 2rem;
@@ -120,7 +120,7 @@ section, section h2, section p {
 
 .info-highlight a.cta-button {
   background: #fff;
-  color: #1e90ff;
+  color: #2d6a4f;
   margin-top: 1rem;
   display: inline-block;
 }
@@ -128,7 +128,7 @@ section, section h2, section p {
 /* Full-width blue section */
 .info-highlight-full {
   width: 100vw;
-  background-color: #1e90ff;
+  background-color: #2d6a4f;
   color: white;
   padding: 2rem 0;
   position: relative;
@@ -149,7 +149,7 @@ section, section h2, section p {
 /* Ensure button remains styled */
 .info-highlight-inner .cta-button {
   background: #fff;
-  color: #1e90ff;
+  color: #2d6a4f;
   font-style: italic;
   margin-top: 1rem;
   display: inline-block;
@@ -182,7 +182,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #1e90ff;
+  color: #2d6a4f;
 }
 
 

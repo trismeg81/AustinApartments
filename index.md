@@ -18,7 +18,7 @@ ext-css:
 </header>
 
 <!-- NAVIGATION LINKS -->
-<nav style="text-align: center; padding: 1rem; background-color: #f0f8ff;">
+<nav style="text-align: center; padding: 1rem; background-color: hsla(150, 30%, 96%, 0.6);">
   <a href="index.html" style="margin: 0 1rem;">Home</a>
   <a href="faq-blog.html" style="margin: 0 1rem;">FAQs & Neighborhood Guides</a>
   <a href="#contact" style="margin: 0 1rem;">Contact</a>
@@ -86,7 +86,7 @@ ext-css:
 </section>
 
 <!-- RENT CALCULATOR SECTION -->
-<section id="rent-calculator" style="background: #f0f8ff; padding: 2rem; text-align: center;">
+<section id="rent-calculator" style="background: hsla(150, 30%, 96%, 0.6); padding: 2rem; text-align: center;">
   <h2>What's Your Rent After The Special? Let's Calculate it!</h2>
 
   <form id="calculator-form" style="max-width: 400px; margin: 1rem auto;">
