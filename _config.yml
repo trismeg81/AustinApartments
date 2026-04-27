@@ -2,6 +2,7 @@ title: "Free Apartment Locator Austin TX | Move-In Specials & Deals | Apartment 
 description: "Free apartment locating service in Austin TX. Taylor Boykin finds move-in specials, weeks free, and waived fees across Austin, Cedar Park, Leander, Round Rock, Pflugerville, Georgetown, Buda and Kyle. Text (972) 754-7790."
 url: "https://www.apartmentdealsaustin.com"
 author: "Taylor Boykin"
+remove-ads: true
 remote_theme: daattali/beautiful-jekyll@5.0.0
 plugins:
   - jekyll-remote-theme
