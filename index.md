@@ -2,7 +2,27 @@
 layout: default
 ext-css:
   - /style.css
+canonical_url: "https://www.apartmentdealsaustin.com"
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "RealEstateAgent"],
+  "name": "Apartment Deals Austin",
+  "founder": { "@type": "Person", "name": "Taylor Boykin" },
+  "telephone": "+19727547790",
+  "email": "taylor@myapartmentfinders.com",
+  "url": "https://www.apartmentdealsaustin.com",
+  "priceRange": "Free",
+  "description": "Licensed real estate agent and full-time apartment locator serving Austin TX. Free service — the property pays my fee when you sign.",
+  "areaServed": [
+    "Austin, TX", "Cedar Park, TX", "Leander, TX",
+    "Round Rock, TX", "Pflugerville, TX", "Georgetown, TX",
+    "Buda, TX", "Kyle, TX", "Taylor, TX"
+  ]
+}
+</script>
 
 <!-- STICKY NAV -->
 <nav>
@@ -284,7 +304,7 @@ ext-css:
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="footer-legal">
-      <p>&copy; 2026 My Apartment Finders &mdash; Taylor Boykin, Licensed Real Estate Agent, Texas</p>
+      <p>&copy; 2026 Apartment Deals Austin &mdash; Taylor Boykin, Licensed Real Estate Agent, Texas</p>
       <p>
         <a href="https://acrobat.adobe.com/id/urn%3Aaaid%3Asc%3AUS%3A22ee4d14-818b-4513-9cae-d4d11f140285/?x_api_client_id=acom_nav&filetype=application%2Fpdf"
            target="_blank"

@@ -1,11 +1,16 @@
-title: Apartment Deals Austin
-description: Your go-to expert for exclusive deals on new Austin apartments – fast leasing with photos, videos, and personalized tours.
-remote_theme: daattali/beautiful-jekyll@5.0.0  # This version is stable for GitHub Pages
+title: "Free Apartment Locator Austin TX | Move-In Specials & Deals | Apartment Deals Austin"
+description: "Free apartment locating service in Austin TX. Taylor Boykin finds move-in specials, weeks free, and waived fees across Austin, Cedar Park, Leander, Round Rock, Pflugerville, Georgetown, Buda and Kyle. Text (972) 754-7790."
+url: "https://www.apartmentdealsaustin.com"
+author: "Taylor Boykin"
+remote_theme: daattali/beautiful-jekyll@5.0.0
 plugins:
   - jekyll-remote-theme
 defaults:
   - scope:
       path: ""
     values:
-      layout: page  # Change from 'single' to 'page' for compatibility
-      image: /photos/hero-apartment.jpg  # Keep this for hero visuals
+      layout: page
+      image: /photos/hero-apartment.jpg
+      og_title: "Free Apartment Locator Austin TX | Apartment Deals Austin"
+      og_description: "I find Austin renters the best move-in specials — weeks free, waived fees, gift cards — completely free. Text Taylor at (972) 754-7790."
+      og_image: "https://www.apartmentdealsaustin.com/photos/headshot.jpg"
