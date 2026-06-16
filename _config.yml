@@ -3,6 +3,7 @@ description: "Free apartment locating service in Austin TX. Taylor Boykin finds 
 url: "https://www.apartmentdealsaustin.com"
 author: "Taylor Boykin"
 remove-ads: true
+future: true
 remote_theme: daattali/beautiful-jekyll@5.0.0
 plugins:
   - jekyll-remote-theme
