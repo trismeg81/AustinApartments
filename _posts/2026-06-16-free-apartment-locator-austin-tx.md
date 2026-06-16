@@ -3,6 +3,7 @@ layout: post
 title: "What Is a Free Apartment Locator in Austin TX — and Why You Should Use One"
 subtitle: "I do the searching, negotiating, and comparing for you. Here's how it works."
 date: 2026-06-16
+permalink: /blog/free-apartment-locator-austin-tx/
 author: Taylor Boykin
 tags: [austin, apartment-locator, move-in-specials, free]
 thumbnail-img: /photos/headshot.jpg
